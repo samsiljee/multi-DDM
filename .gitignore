@@ -1,1 +1,7 @@
 *.asv
+
+# Input data
+Input_data/*
+
+# Results
+Input_data_Analysis/*
