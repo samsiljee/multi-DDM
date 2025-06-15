@@ -2,7 +2,7 @@
 % further processing in R
 
 % Input directory
-input_dir = 'Input_data_Analysis';
+input_dir = 'Test_input_Analysis';
 
 % Get list of results files
 results_files = dir(fullfile(input_dir, '*.mat'));
