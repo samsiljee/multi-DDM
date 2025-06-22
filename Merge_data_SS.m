@@ -23,8 +23,8 @@ sampletypes = {'p53KD';
 'Control'};
 timepoints = {''};  % Changed to cell array
 donors = {'21_052';'21_073';'21_120';'21_161';'21_166';'21_189';'22_069';'22_114'};
-%inserts = {'i1','i2','i3'};
-inserts = '';
+inserts = {'i1','i2','i3'};
+%inserts = '';
 positions = '';
 
 % list of boxes used in the previous multiDDM analysis step
@@ -52,5 +52,5 @@ flag_recalculate_goodboxes = false;
     flag_dryrun, flag_recalculate_goodboxes);
 
 % save the results
-save('Merged_data.mat')
+save('Merged_data_inserts.mat')
 return
